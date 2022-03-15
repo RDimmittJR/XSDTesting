@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-           elementFormDefault="qualified"
-           attributeFormDefault="qualified"
-           id="BaseTypesSchema">
-
-  <xs:simpleType name="ZIP">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[0-9]{5}(-[0-9]{4})?" />
-    </xs:restriction>
-  </xs:simpleType>
-
-
-
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="ZIP">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{5}(-[0-9]{4})?"/>
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>

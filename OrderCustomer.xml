@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderCustomers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/RDimmittJR/XSDTesting/main/OrderCustomers_subset.xsd">
+	<OrderCustomer>
+		<orderperson>John Smith</orderperson>
+		<shipto>
+			<name>Ola Nordmann</name>
+			<address>Langgt 23</address>
+			<city>4000 Stavanger</city>
+			<country>Norway</country>
+			<zip>13245</zip>
+		</shipto>
+	</OrderCustomer>
+	<OrderCustomer>
+		<orderperson>Jane Doe</orderperson>
+		<shipto>
+			<name>Samantha Martin</name>
+			<address>1106 Freestone Drive</address>
+			<city>Melissa</city>
+			<country>Sweden</country>
+			<zip>79845-6424</zip>
+		</shipto>
+	</OrderCustomer>
+</OrderCustomers>
+
